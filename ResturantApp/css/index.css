@@ -1,0 +1,98 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+html,body{
+   height:100%;
+}
+.container
+{
+    display: block;
+    height:100%;
+}
+.left
+{
+margin: 0px 0px 1px 1px;
+border-left:1px solid black;
+padding:1px;
+float: left;
+width: 25%;
+height:100%;
+
+
+}
+.right
+{
+     padding-left:2px;
+     border-left:2px solid black;
+    width: 74%;
+    height:100%;
+    float:left;
+    overflow-y: scroll;
+  
+}
+
+#tableInput, #menuInput
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width:70%;
+    height:10%;;
+    margin-bottom:15px;;
+    margin-top: 3px;
+    border:none;
+    padding:8px;
+}
+.table
+{
+    border:1px slid black;
+}
+.left .card{
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width:95%;
+    height:55%;
+    margin-bottom:15px;;
+    margin-left: 2%;;
+    margin-top: 2%;
+    text-align:center;
+}
+.right ul .card{ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width:95%;
+    height:26vh ;
+    margin-bottom:15px;;
+    margin-left: 2%;;
+    margin-top: 2%;
+    text-align:center;
+}
+.right .lowerSection,.right .upperSection {
+text-align:left;
+font-size: 1.80vw;
+
+}
+.right .card .upperSection
+{text-align:bottom;
+    margin-bottom:8%;
+    
+}
+
+
+
+.card .upperSection {
+   margin-bottom:20px;
+   padding-top: 5px;;
+}
+
+ .row div
+ {
+     display: block;
+ }
+ #GenerateBill
+ {
+    height:30px;
+     margin-bottom:0px ;
+     margin-right:2px;
+ }

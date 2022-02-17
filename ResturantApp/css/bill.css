@@ -1,0 +1,28 @@
+.bill-container {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.bill-contents {
+	height: 500px;
+	width: 500px;
+	background-color: white;
+	margin:auto;
+    margin-top:20;
+	padding: 2px;
+	position: relative;
+	border-radius: 4px;
+}
+.bill-header
+{
+    height:10vh;
+
+}
